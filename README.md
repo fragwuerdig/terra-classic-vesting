@@ -19,7 +19,7 @@ This is an example instantiation message with a 2 months schedule, total vested 
 ```
 {
   "owner": "terra10d07y265gmmuvt4z0w9aw880jnsr700juxf95n",
-  "recipient": "terra1rtwut7skslgcnfptj2xdjwpddv3a9cw6nhdwe7aej5nx5qkqmd6saqnsrv",
+  "recipient": "terra1...",
   "title": "Payroll for Super-Dooper-Team",
   "description": "This is the payroll contract for the Super-Dooper-Team that is leading this Blockchain to 40bn Market Cap. LFG!",
   "total": "1000000000000",
