@@ -49,8 +49,8 @@ This is an example instantiation message with a 2 months schedule, total vested 
 - `total`: That is the total amount of funds that the vestee will ever be able to withdraw if the payment is not cancelled prematurely. Please note, that the unit of this parameter is `micro`. Meaning, if you want to input 1 LUNC (or USTC), then you need to put `1000000` here.
 - `denom`: leave as is (or put `uusd` for the denom, if the payment is made in USTC)
 - `schedule`: More about defining payments see below.
-- `start_time`: But the UNIX time (in nanoseconds) when the schedule should start. Calculate the UNIX time from the human-readable date by using [this tool](https://www.unixtimestamp.com/), then multiply the result with `1,000,000,000` and put it into this field.
-- `vesting_duration_seconds`: But the length of the vesting schedule in seconds.
+- `start_time`: Put the UNIX timestamp (in nanoseconds) when the schedule should start. Calculate the UNIX time from the human-readable date by using [this tool](https://www.unixtimestamp.com/), then multiply the result with `1,000,000,000` and put it into this field.
+- `vesting_duration_seconds`: Put the length of the vesting schedule in seconds.
 
 ### Definition of Vesting Schedules
 
